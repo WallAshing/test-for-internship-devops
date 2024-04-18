@@ -53,7 +53,7 @@ jobs:
           subscription-id: ${{secrets.AZURE_SUBSCRIPTION_ID}}
 
       - name: Azure Kubernetes set context
-        uses: Azure/aks-set-context@v1
+        uses: Azure/aks-set-context@v3
         with:
           # Resource Group Name
           resource-group: EUW
